@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
             link.download = 'compressed_image.jpg';
             link.href = compressedDataUrl;
             link.click();
-        };
+        }; 
     }
 
     // 格式化文件大小
