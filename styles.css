@@ -1,4 +1,11 @@
-/* 全局样式 */
+/* 在styles.css文件顶部添加 */
+@charset "UTF-8";
+
+/* 优化字体加载 */
+@font-face {
+    font-family: -apple-system;
+    font-display: swap;
+}/* 全局样式 */
 :root {
     --primary-color: #007AFF;
     --background-color: #F5F5F7;
